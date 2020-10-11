@@ -1,0 +1,2 @@
+2020/07/07 14:44:38 [error] 37920#0: *5614 directory index of "/Users/akihiro/Local Sites/sokunnu/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "sokunnu.local", referrer: "http://sokunnu.local/wp-content/cache/"
+2020/07/08 11:02:35 [error] 37920#0: *13161 directory index of "/Users/akihiro/Local Sites/sokunnu/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "sokunnu.local", referrer: "http://sokunnu.local/wp-content/cache/"

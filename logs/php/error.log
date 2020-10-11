@@ -1,0 +1,158 @@
+[07-Jul-2020 05:28:53 UTC] WordPress データベースエラー: Table 'local.wp_ewwwio_images' doesn't exist for query SELECT id,path,updated FROM wp_ewwwio_images WHERE pending=0 AND image_size > 0 ORDER BY id DESC LIMIT 0,500 made by do_action_ref_array('ewww_image_optimizer_relative_migration'), WP_Hook->do_action, WP_Hook->apply_filters, EWWWIO_Relative_Migration->migrate, EWWWIO_Relative_Migration->get_records
+[08-Jul-2020 01:58:26 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '(' in /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/themes/so.kun.nu/functions.php on line 30
+[08-Jul-2020 02:30:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/themes/so.kun.nu/functions.php on line 62
+[10-Jul-2020 00:42:40 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 162
+[10-Jul-2020 00:42:40 UTC] PHP Stack trace:
+[10-Jul-2020 00:42:40 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[10-Jul-2020 00:42:40 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[10-Jul-2020 00:42:40 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[10-Jul-2020 00:42:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[10-Jul-2020 00:42:40 UTC] PHP   5. wp_version_check() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[10-Jul-2020 00:42:40 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:162
+[10-Jul-2020 00:42:40 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 388
+[10-Jul-2020 00:42:40 UTC] PHP Stack trace:
+[10-Jul-2020 00:42:40 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[10-Jul-2020 00:42:40 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[10-Jul-2020 00:42:40 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[10-Jul-2020 00:42:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[10-Jul-2020 00:42:40 UTC] PHP   5. wp_update_plugins() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[10-Jul-2020 00:42:40 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:388
+[10-Jul-2020 00:42:40 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 578
+[10-Jul-2020 00:42:40 UTC] PHP Stack trace:
+[10-Jul-2020 00:42:40 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[10-Jul-2020 00:42:40 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[10-Jul-2020 00:42:40 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[10-Jul-2020 00:42:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[10-Jul-2020 00:42:40 UTC] PHP   5. wp_update_themes() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[10-Jul-2020 00:42:40 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:578
+[11-Jul-2020 23:06:54 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 162
+[11-Jul-2020 23:06:54 UTC] PHP Stack trace:
+[11-Jul-2020 23:06:54 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[11-Jul-2020 23:06:54 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[11-Jul-2020 23:06:54 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[11-Jul-2020 23:06:54 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[11-Jul-2020 23:06:54 UTC] PHP   5. wp_version_check() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[11-Jul-2020 23:06:54 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:162
+[11-Jul-2020 23:06:54 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 388
+[11-Jul-2020 23:06:54 UTC] PHP Stack trace:
+[11-Jul-2020 23:06:54 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[11-Jul-2020 23:06:54 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[11-Jul-2020 23:06:54 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[11-Jul-2020 23:06:54 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[11-Jul-2020 23:06:54 UTC] PHP   5. wp_update_plugins() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[11-Jul-2020 23:06:54 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:388
+[11-Jul-2020 23:06:54 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 578
+[11-Jul-2020 23:06:54 UTC] PHP Stack trace:
+[11-Jul-2020 23:06:54 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[11-Jul-2020 23:06:54 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[11-Jul-2020 23:06:54 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[11-Jul-2020 23:06:54 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[11-Jul-2020 23:06:54 UTC] PHP   5. wp_update_themes() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[11-Jul-2020 23:06:54 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:578
+[13-Jul-2020 22:54:12 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 162
+[13-Jul-2020 22:54:12 UTC] PHP Stack trace:
+[13-Jul-2020 22:54:12 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[13-Jul-2020 22:54:12 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[13-Jul-2020 22:54:12 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[13-Jul-2020 22:54:12 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[13-Jul-2020 22:54:12 UTC] PHP   5. wp_version_check() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[13-Jul-2020 22:54:12 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:162
+[13-Jul-2020 22:54:12 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 388
+[13-Jul-2020 22:54:12 UTC] PHP Stack trace:
+[13-Jul-2020 22:54:12 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[13-Jul-2020 22:54:12 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[13-Jul-2020 22:54:12 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[13-Jul-2020 22:54:12 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[13-Jul-2020 22:54:12 UTC] PHP   5. wp_update_plugins() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[13-Jul-2020 22:54:12 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:388
+[13-Jul-2020 22:54:12 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 578
+[13-Jul-2020 22:54:12 UTC] PHP Stack trace:
+[13-Jul-2020 22:54:12 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[13-Jul-2020 22:54:12 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[13-Jul-2020 22:54:12 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[13-Jul-2020 22:54:12 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[13-Jul-2020 22:54:12 UTC] PHP   5. wp_update_themes() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[13-Jul-2020 22:54:12 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:578
+[09-Oct-2020 05:39:10 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 162
+[09-Oct-2020 05:39:10 UTC] PHP Stack trace:
+[09-Oct-2020 05:39:10 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[09-Oct-2020 05:39:10 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[09-Oct-2020 05:39:10 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[09-Oct-2020 05:39:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[09-Oct-2020 05:39:10 UTC] PHP   5. wp_version_check() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[09-Oct-2020 05:39:10 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:162
+[09-Oct-2020 05:39:10 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 388
+[09-Oct-2020 05:39:10 UTC] PHP Stack trace:
+[09-Oct-2020 05:39:10 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[09-Oct-2020 05:39:10 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[09-Oct-2020 05:39:10 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[09-Oct-2020 05:39:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[09-Oct-2020 05:39:10 UTC] PHP   5. wp_update_plugins() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[09-Oct-2020 05:39:10 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:388
+[09-Oct-2020 05:39:10 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php on line 578
+[09-Oct-2020 05:39:10 UTC] PHP Stack trace:
+[09-Oct-2020 05:39:10 UTC] PHP   1. {main}() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:0
+[09-Oct-2020 05:39:10 UTC] PHP   2. do_action_ref_array() /Users/akihiro/Local Sites/sokunnu/app/public/wp-cron.php:138
+[09-Oct-2020 05:39:10 UTC] PHP   3. WP_Hook->do_action() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/plugin.php:544
+[09-Oct-2020 05:39:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:311
+[09-Oct-2020 05:39:10 UTC] PHP   5. wp_update_themes() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/class-wp-hook.php:287
+[09-Oct-2020 05:39:10 UTC] PHP   6. trigger_error() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/update.php:578
+[10-Oct-2020 14:05:29 UTC] PHP Warning:  Error while sending QUERY packet. PID=5438 in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php on line 2024
+[10-Oct-2020 14:05:29 UTC] PHP Stack trace:
+[10-Oct-2020 14:05:29 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[10-Oct-2020 14:05:29 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[10-Oct-2020 14:05:29 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[10-Oct-2020 14:05:29 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[10-Oct-2020 14:05:29 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[10-Oct-2020 14:05:29 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[10-Oct-2020 14:05:29 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[10-Oct-2020 14:05:29 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[10-Oct-2020 14:05:29 UTC] PHP   9. wp_not_installed() /Users/akihiro/Local Sites/sokunnu/app/public/wp-settings.php:161
+[10-Oct-2020 14:05:29 UTC] PHP  10. is_blog_installed() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/load.php:606
+[10-Oct-2020 14:05:29 UTC] PHP  11. wp_load_alloptions() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/functions.php:1706
+[10-Oct-2020 14:05:29 UTC] PHP  12. wpdb->get_results() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:213
+[10-Oct-2020 14:05:29 UTC] PHP  13. wpdb->query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:2641
+[10-Oct-2020 14:05:29 UTC] PHP  14. wpdb->_do_query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:1912
+[10-Oct-2020 14:05:29 UTC] PHP  15. mysqli_query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:2024
+[10-Oct-2020 14:05:30 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = 'backwpup_cfg_hash' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), include_once('/plugins/backwpup/backwpup.php'), BackWPup_System_Tests->is_wp_version_compatible, BackWPup::get_plugin_data, get_site_option, get_network_option, get_option
+[10-Oct-2020 14:05:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=5435 in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php on line 2024
+[10-Oct-2020 14:05:30 UTC] PHP Stack trace:
+[10-Oct-2020 14:05:30 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[10-Oct-2020 14:05:30 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[10-Oct-2020 14:05:30 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[10-Oct-2020 14:05:30 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[10-Oct-2020 14:05:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[10-Oct-2020 14:05:30 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[10-Oct-2020 14:05:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[10-Oct-2020 14:05:30 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[10-Oct-2020 14:05:30 UTC] PHP   9. include_once() /Users/akihiro/Local Sites/sokunnu/app/public/wp-settings.php:371
+[10-Oct-2020 14:05:30 UTC] PHP  10. BackWPup_System_Tests->is_wp_version_compatible() /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/plugins/backwpup/backwpup.php:629
+[10-Oct-2020 14:05:30 UTC] PHP  11. BackWPup::get_plugin_data() /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/plugins/backwpup/inc/class-system-tests.php:33
+[10-Oct-2020 14:05:30 UTC] PHP  12. update_site_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/plugins/backwpup/backwpup.php:260
+[10-Oct-2020 14:05:30 UTC] PHP  13. update_network_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:1203
+[10-Oct-2020 14:05:30 UTC] PHP  14. add_network_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:1618
+[10-Oct-2020 14:05:30 UTC] PHP  15. add_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:1388
+[10-Oct-2020 14:05:30 UTC] PHP  16. wpdb->query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:504
+[10-Oct-2020 14:05:30 UTC] PHP  17. wpdb->_do_query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:1912
+[10-Oct-2020 14:05:30 UTC] PHP  18. mysqli_query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:2024
+[10-Oct-2020 14:05:30 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = 'backwpup_cfg_hash' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), include_once('/plugins/backwpup/backwpup.php'), BackWPup_System_Tests->is_wp_version_compatible, BackWPup::get_plugin_data, get_site_option, get_network_option, get_option
+[10-Oct-2020 14:05:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=5436 in /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php on line 2024
+[10-Oct-2020 14:05:30 UTC] PHP Stack trace:
+[10-Oct-2020 14:05:30 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[10-Oct-2020 14:05:30 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[10-Oct-2020 14:05:30 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[10-Oct-2020 14:05:30 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[10-Oct-2020 14:05:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[10-Oct-2020 14:05:30 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[10-Oct-2020 14:05:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[10-Oct-2020 14:05:30 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[10-Oct-2020 14:05:30 UTC] PHP   9. include_once() /Users/akihiro/Local Sites/sokunnu/app/public/wp-settings.php:371
+[10-Oct-2020 14:05:30 UTC] PHP  10. BackWPup_System_Tests->is_wp_version_compatible() /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/plugins/backwpup/backwpup.php:629
+[10-Oct-2020 14:05:30 UTC] PHP  11. BackWPup::get_plugin_data() /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/plugins/backwpup/inc/class-system-tests.php:33
+[10-Oct-2020 14:05:30 UTC] PHP  12. update_site_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-content/plugins/backwpup/backwpup.php:260
+[10-Oct-2020 14:05:30 UTC] PHP  13. update_network_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:1203
+[10-Oct-2020 14:05:30 UTC] PHP  14. add_network_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:1618
+[10-Oct-2020 14:05:30 UTC] PHP  15. add_option() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:1388
+[10-Oct-2020 14:05:30 UTC] PHP  16. wpdb->query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/option.php:504
+[10-Oct-2020 14:05:30 UTC] PHP  17. wpdb->_do_query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:1912
+[10-Oct-2020 14:05:30 UTC] PHP  18. mysqli_query() /Users/akihiro/Local Sites/sokunnu/app/public/wp-includes/wp-db.php:2024
