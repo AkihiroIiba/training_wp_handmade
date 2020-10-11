@@ -1,0 +1,560 @@
+/*
+Theme Name: so.kun.nu
+Description:so.kun.nuの作品集です。
+Author: akipan
+Version:1.0
+*/
+
+@charset "UTF-8";
+/*//////////////////// 共通 ////////////////////*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", "Hiragino Sans", sans-serif;
+  line-height: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/*//////////////////////////////////////////////*/
+/*//////////////////// menu  ////////////////////*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  z-index: 10;
+}
+
+#logo {
+  position: fixed;
+  top: 5px;
+  left: 20px;
+  z-index: 100;
+}
+
+#globalMenu {
+  display: none;
+}
+
+#menuOverlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  z-index: 97;
+}
+
+#switchBtnArea {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  z-index: 10;
+}
+
+#switchBtnArea #switchBtn {
+  top: 0px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-image: url(img/btnOpen.png);
+  position: fixed;
+  z-index: 98;
+}
+
+#switchBtnArea #switchBtn.btnClose {
+  background: transparent url(img/btnClose.png) no-repeat center center;
+}
+
+#rwdMenuWrap {
+  top: 0;
+  right: -290px;
+  width: 290px;
+  height: 100%;
+  background: #fff;
+  overflow: auto;
+  position: fixed;
+  z-index: 99;
+}
+
+#rwdMenuWrap ul {
+  padding-top: 50px;
+}
+
+#rwdMenuWrap ul li a {
+  padding: 20px 50px;
+  text-align: left;
+  display: block;
+  color: gray;
+}
+
+#rwdMenuWrap ul li a:hover {
+  color: black;
+}
+
+#rwdMenuWrap ul .portfolio-sub {
+  padding: 15px 60px;
+  color: gray;
+}
+
+#rwdMenuWrap ul .portfolio-sub:hover {
+  color: black;
+}
+
+#globalMenu ul {
+  *zoom: 1;
+}
+
+#globalMenu ul:before, #globalMenu ul:after {
+  content: " ";
+  display: table;
+}
+
+#globalMenu ul:after {
+  clear: both;
+}
+
+/*/////////////////////////////////////////////////*/
+/*//////////////// swiper /////////////////////////*/
+.swc1 {
+  position: relative;
+  /* ← swiper.cssに含まれています */
+}
+
+.swc1:before {
+  content: "";
+  display: block;
+  padding-top: calc(9/16*100%);
+  /* 縦/横*100の値を書く */
+}
+
+.sww1 {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.sww1 img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgba(240, 240, 240, 0.5);
+}
+
+/*//////////////////////////////////////////////////*/
+#newArrivals {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ------------------------------
+   DESIGN/LAYOUT ELEMENTS
+------------------------------ */
+#wrapper {
+  margin: 0 auto;
+  padding: 60px 0;
+  width: 480px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  #wrapper {
+    width: 640px;
+  }
+}
+
+/* ------------------------------
+   CHAPTER ELEMENTS
+------------------------------ */
+#filterBtn {
+  padding-bottom: 30px;
+}
+
+#filterBtn a {
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: gray;
+}
+
+#filterBtn a:hover {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  #filterBtn a {
+    padding: 10px 20px;
+  }
+}
+
+#filterBtn a.active {
+  color: black;
+}
+
+#filterList ul {
+  margin: 0 auto;
+  width: 480px;
+  text-align: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #filterList ul {
+    width: 640px;
+  }
+}
+
+#filterList ul li {
+  margin: 5px;
+  width: 150px;
+  float: left;
+}
+
+#filterList ul li img {
+  width: 150px;
+}
+
+/* ------------------------------
+   CLEARFIX ELEMENTS
+------------------------------ */
+#filterList ul {
+  *zoom: 1;
+}
+
+#filterList ul:before, #filterList ul:after {
+  content: " ";
+  display: table;
+}
+
+#filterList ul:after {
+  clear: both;
+}
+
+#shopping {
+  margin: 50px 0;
+  width: 100%;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  #shopping {
+    height: 200px;
+  }
+}
+
+#shopping #shopping1 {
+  margin: 20px auto;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  #shopping #shopping1 {
+    padding: 80px 0 50px 0;
+  }
+}
+
+#shopping #shopping1 h2 {
+  font-size: 24px;
+}
+
+#shopping #shopping2 {
+  width: 360px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  #shopping #shopping2 {
+    width: 700px;
+  }
+}
+
+#shopping #shopping2 a {
+  width: calc(360px/5);
+  margin: 0 10px;
+  color: #808080;
+}
+
+@media screen and (min-width: 768px) {
+  #shopping #shopping2 a {
+    width: calc(700px/5);
+    margin: 0 30px;
+  }
+}
+
+#shopping #shopping2 a:hover {
+  color: #000;
+}
+
+#sw_shoppingBeige1,
+#sw_shoppingBig1,
+#sw_shoppingBlue1,
+#sw_shoppingGray1,
+#sw_shoppingGreen1,
+#sw_shoppingPink1,
+#sw_coasterBeige1,
+#sw_coasterBlue1,
+#sw_coasterGray1,
+#sw_coasterYellow1,
+#sw_porchBeige1,
+#sw_porchBlue1,
+#sw_porchDouble1,
+#sw_porchPenguin1,
+#sw_porchPink1,
+#sw_othersSPP1,
+#sw_othersPillow1 {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .shopping1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    width: 720px;
+    margin: 50px auto;
+  }
+}
+
+#sw_shoppingBig1 .shopping1,
+#sw_shoppingGray1 .shopping1,
+#sw_shoppingPink1 .shopping1,
+#sw_coasterBlue1 .shopping1,
+#sw_coasterYellow1 .shopping1,
+#sw_porchBlue1 .shopping1,
+#sw_porchPenguin1 .shopping1,
+#sw_othersPillow1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.swc_shoppingBeige,
+.swc_shoppingBig,
+.swc_shoppingBlue,
+.swc_shoppingGray,
+.swc_shoppingGreen,
+.swc_shoppingPink,
+.swc_coasterBeige,
+.swc_coasterBlue,
+.swc_coasterGray,
+.swc_coasterYellow,
+.swc_porchBeige,
+.swc_porchBlue,
+.swc_porchDouble,
+.swc_porchPenguin,
+.swc_porchPink,
+.swc_othersSPP,
+.swc_othersPillow {
+  width: 320px;
+  height: calc(320px*4/3);
+  margin: 20px auto;
+}
+
+.swc_shoppingBeige ul,
+.swc_shoppingBig ul,
+.swc_shoppingBlue ul,
+.swc_shoppingGray ul,
+.swc_shoppingGreen ul,
+.swc_shoppingPink ul,
+.swc_coasterBeige ul,
+.swc_coasterBlue ul,
+.swc_coasterGray ul,
+.swc_coasterYellow ul,
+.swc_porchBeige ul,
+.swc_porchBlue ul,
+.swc_porchDouble ul,
+.swc_porchPenguin ul,
+.swc_porchPink ul,
+.swc_othersSPP ul,
+.swc_othersPillow ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.swc_shoppingBeige ul img,
+.swc_shoppingBig ul img,
+.swc_shoppingBlue ul img,
+.swc_shoppingGray ul img,
+.swc_shoppingGreen ul img,
+.swc_shoppingPink ul img,
+.swc_coasterBeige ul img,
+.swc_coasterBlue ul img,
+.swc_coasterGray ul img,
+.swc_coasterYellow ul img,
+.swc_porchBeige ul img,
+.swc_porchBlue ul img,
+.swc_porchDouble ul img,
+.swc_porchPenguin ul img,
+.swc_porchPink ul img,
+.swc_othersSPP ul img,
+.swc_othersPillow ul img {
+  width: 320px;
+  height: calc(320px*4/3);
+}
+
+.thumb-list {
+  padding: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 320px;
+}
+
+.thumb-list .thumb-item {
+  list-style: none;
+  width: 60px;
+  margin: 0 10px;
+}
+
+.thumb-list .thumb-item .thumb-link {
+  display: block;
+  width: 60px;
+  height: calc(60px*4/3);
+}
+
+.shopping3 {
+  width: 100%;
+  height: 200px;
+}
+
+.shopping3 h4 {
+  width: 360px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .shopping3 h4 {
+    margin: 100px 24px 50px 20px;
+  }
+}
+
+.shopping3 li {
+  text-decoration: none;
+  width: 360px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 768px) {
+  .shopping3 li {
+    margin: 50px 24px 50px 20px;
+  }
+}
+
+.etcItem {
+  width: 100%;
+  margin: 20px;
+}
+
+.etcItem ul {
+  width: 450px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .etcItem ul {
+    width: 640px;
+  }
+}
+
+.etcItem ul li {
+  width: 90px;
+  height: 120px;
+}
+
+.etcItem ul li img {
+  width: 90px;
+  height: 120px;
+}
+
+footer {
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  background: rgba(173, 189, 223, 0.2);
+}
+
+footer #link_sns0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto 5px;
+  padding: 50px 10px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  footer #link_sns0 {
+    width: 600px;
+    padding: 50px 10px 20px;
+  }
+}
+
+footer #link_sns0 .link_sns {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: gray;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  border-radius: 50%;
+  margin: 0 9px;
+}
+
+@media screen and (min-width: 768px) {
+  footer #link_sns0 .link_sns {
+    margin: 0 10px;
+  }
+}
+
+footer #link_sns0 .link_sns:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=styles.css.map */
